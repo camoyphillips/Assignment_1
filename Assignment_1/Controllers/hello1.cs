@@ -18,9 +18,9 @@ namespace Assignment_1.Controllers
         /// Response: "Welcome to 5125!"
         /// </example>
         [HttpGet("welcome")]
-        public IActionResult GetWelcomeMessage()
+        public string GetWelcomeMessage()
         {
-            return Ok("Welcome to 5125!");
+            return "Welcome to 5125!";
 
         }
     }
